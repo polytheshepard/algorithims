@@ -10,7 +10,7 @@
 // We'll also pass strings with special symbols, such as "2A3*3a2", "2A3 3a2", and "2_A3*3#A2".
 
 function palidrome(str) {
-  var replace = str.replace(/[/\W/_]/g, "").toLowerCase();
+  var replace = str.replace(/[/\W/_]/g, "").toLowerCase(); // Matches non-alpabetic characters and replaces with empty string and lower cases any characters.
   var reverse = replace.split("").reverse().join("");
   if (replace === reverse) {
     return true;
