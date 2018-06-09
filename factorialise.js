@@ -8,10 +8,10 @@
 
 function factorialise(num) {
   // if number is a negative it returns false and terminates program.
-  if(num === -1) {
+  if(num == -1) {
     return false;
   // if number is a zero it continues to factorialise on top.
-  } else if(num === 0){
+  } else if(num == 0){
     return 1;
   } else {
     // returns the output when the last number consecutively times the previous number.
