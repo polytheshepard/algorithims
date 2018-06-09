@@ -7,6 +7,6 @@ I will soon update an explanation in how I've deduced to each algorithim result.
 
 - Adding in `split(' ')` puts each word into an array list.
 
-##Java
+## Java
 
-##C
+## C
